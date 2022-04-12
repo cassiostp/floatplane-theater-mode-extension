@@ -1,0 +1,19 @@
+div#page-wrapper.page-wrapper {
+    padding-left: 0px;
+}
+
+div#page-wrapper.page-wrapper div.sidebar {
+    visibility: hidden;
+}
+
+div#page-wrapper.page-wrapper .player-wrapper .player-container {
+    max-width: unset;
+}
+
+div#page-wrapper.page-wrapper .player-wrapper .player-container.livestream {
+    max-width: unset;
+}
+
+div#page-wrapper.page-wrapper div.PlayerPageBodyContainer {
+    background: black;
+}
