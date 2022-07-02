@@ -17,3 +17,45 @@ div#page-wrapper.page-wrapper .player-wrapper .player-container.livestream {
 div#page-wrapper.page-wrapper div.PlayerPageBodyContainer {
     background: black;
 }
+
+div#page-wrapper.page-wrapper div.live-scroll-wrapper {
+    background: black;
+}
+
+div#page-wrapper.page-wrapper div.live-chat-wrapper {
+    background: black;
+}
+
+div#page-wrapper.page-wrapper div.chat-view-container.chat-messages-container {
+    background: black;
+}
+
+div#page-wrapper.page-wrapper div.chat-input-container {
+    border-color: black;
+}
+
+div#page-wrapper.page-wrapper div.live-chat-sizer {
+    border-color: #373838;
+}
+
+div#page-wrapper.page-wrapper div.live-chat-sizer:hover,
+div#page-wrapper.page-wrapper div.live-chat-sizer:active {
+    border-color: #008abd;
+    transform: scaleX(2);
+}
+
+div#page-wrapper.page-wrapper textarea.chat-input {
+    background: black;
+}
+
+div#page-wrapper.page-wrapper div.chat-message-list {
+    background: black;
+}
+
+div#page-wrapper.page-wrapper span.chat-username {
+    color: #308ec9;
+}
+
+div#page-wrapper.page-wrapper span.chat-text {
+    color: #e3e3e3;
+}
