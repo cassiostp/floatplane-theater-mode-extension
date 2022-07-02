@@ -1,7 +1,7 @@
 {
     "name": "Floatplane theater mode",
     "description": "Simulates a theater mode for floatplane in desktop browsers",
-    "version": "1.0",
+    "version": "1.0.1",
     "manifest_version": 3,
     "permissions": [
         "activeTab",

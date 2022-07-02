@@ -20,6 +20,13 @@ div#page-wrapper.page-wrapper div.PlayerPageBodyContainer {
 
 div#page-wrapper.page-wrapper div.live-scroll-wrapper {
     background: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+div#page-wrapper.page-wrapper div.live-about-wrapper {
+    display: none;
 }
 
 div#page-wrapper.page-wrapper div.live-chat-wrapper {
