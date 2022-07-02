@@ -1,6 +1,24 @@
 {
     "name": "Floatplane theater mode",
-    "description": "Simulates a theater mode for floatplane",
+    "description": "Simulates a theater mode for floatplane in desktop browsers",
     "version": "1.0",
-    "manifest_version": 1
+    "manifest_version": 3,
+    "permissions": [
+        "activeTab",
+        "declarativeContent",
+        "scripting"
+    ],
+    "action": {
+        "default_title": "Toggle Floatplane theater mode",
+        "default_icon": {
+            "48": "icon-black-blocked-48.png"
+        }
+    },
+    "background": {
+        "service_worker": "background.js"
+    },
+    "icons": {
+        "48": "icon-black-48.png",
+        "128": "icon-black-128.png"
+    }
 }
